@@ -1,0 +1,48 @@
+.home-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://img.freepik.com/premium-photo/mountain-landscape-with-river-sunset-sky_987686-2421.jpg"); /* replace with your preferred image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.overlay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.overlay button {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9800;
+  color: white;
+  transition: 0.3s;
+}
+
+.overlay button:hover {
+  background-color: #e68900;
+}

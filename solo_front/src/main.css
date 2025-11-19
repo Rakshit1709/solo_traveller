@@ -1,0 +1,102 @@
+/* Main Container */
+.main-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Poppins', 'Arial', sans-serif; /* modern font */
+  background: linear-gradient(135deg, #696fe3, #f3c4ff); /* soft purple-pink gradient */
+  border-radius: 12px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Create & Search Container */
+.create-search-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+/* Search Form */
+.search-form input {
+  padding: 12px;
+  font-size: 1rem;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.search-form button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff8cff; /* neon pink button */
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.search-form button:hover {
+  background-color: #ff61ff;
+  transform: scale(1.05);
+}
+
+/* Recommendation Cards */
+.recommendation-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rec-card {
+  flex: 1 1 250px;
+  border-radius: 12px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15); /* frosted glass style */
+  backdrop-filter: blur(10px);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.rec-card:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  transform: translateY(-5px);
+}
+
+/* Tips list inside recommendation card */
+.rec-card ul {
+  padding-left: 20px;
+}
+
+.rec-card li {
+  margin-bottom: 5px;
+}
+
+/* Inputs in filter container */
+.filter-container input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.filter-container button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff8cff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-container button:hover {
+  background-color: #ff61ff;
+  transform: scale(1.05);
+}
