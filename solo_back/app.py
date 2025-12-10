@@ -18,8 +18,8 @@ def get_db_connection():
         return mysql.connector.connect(
             host="localhost",
             user=("root"),
-            password=("admin@123"),
-            database=("solo"),
+            password=("#@123"),
+            database=("#"),
             ssl_disabled =True
         )
         return conn
