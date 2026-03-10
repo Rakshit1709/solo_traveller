@@ -13,7 +13,7 @@ Frontend
 
 HTML, CSS, JavaScript
 Bootstrap / Tailwind
-Google Maps API (optional)
+Google Maps API 
 
 Backend
 
